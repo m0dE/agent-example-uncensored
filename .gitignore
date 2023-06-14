@@ -1,0 +1,10 @@
+config/
+node_modules/
+.vscode
+typings/**
+typings.json
+*.log
+.env
+.env.production
+.env.staging
+llm.bin

@@ -1,0 +1,25 @@
+{
+  "name": "llm-uncensored",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "langchain": "node langchain.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "langchain": "^0.0.56",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@llama-node/core": "0.1.5",
+    "@llama-node/llama-cpp": "^0.1.4",
+    "dotenv": "^16.0.3",
+    "llama-node": "^0.1.4",
+    "prompt": "^1.3.0"
+  }
+}
