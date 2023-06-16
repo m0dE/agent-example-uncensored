@@ -12,7 +12,7 @@ import {
 import prompt from "prompt";
 import { BufferMemory } from "langchain/memory";
 
-const model = path.resolve(process.cwd(), "Wizard-Vicuna-13B-Uncensored.bin");
+const model = path.resolve(process.cwd(), "llm.bin");
 // const model = new ChatOpenAI({ temperature: 0 });
 
 const llama = new LLM(LLamaCpp);
